@@ -1,5 +1,15 @@
 S - Single Responsability Principle
 
+    Uma classe deve ter apenas um motivo para mudar
+
+    - Falta de coesão — uma classe não deve assumir responsabilidades que não são suas;
+
+    - Alto acoplamento — Mais responsabilidades geram um maior nível de dependências, deixando o sistema engessado e frágil para alterações;
+
+    - Dificuldades na implementação de testes automatizados — É difícil de “mockar” esse tipo de classe;
+
+    - Dificuldades para reaproveitar o código;
+
 O - Open-Closed Principle
 
     - Objetos ou entidades devem estar abertos para extensão,
